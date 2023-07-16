@@ -10,8 +10,8 @@
 	],
 	"scripts": {
 		"build": "tsc ./mod/index.ts",
-		"dev": "next dev",
-		"client:build": "next build",
+		"client:dev": "next dev ./client -p 3030",
+		"client:build": "next build ./client",
 		"start": "next start",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -30,6 +30,7 @@
 		"next": "^13.4.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"tsup": "^7.1.0"
+		"tsup": "^7.1.0",
+		"webpack": "^5.88.1"
 	}
 }
