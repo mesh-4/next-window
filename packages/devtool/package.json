@@ -2,12 +2,8 @@
 	"name": "@shit/next-window",
 	"version": "0.0.0",
 	"sideEffects": false,
-	"exports": {
-		".": "./dist/index.js"
-	},
-	"files": [
-		"dist/**"
-	],
+	"main": "./src/index.js",
+	"types": "./src/index.js",
 	"scripts": {
 		"build": "tsc ./mod/index.ts",
 		"client:dev": "next dev ./client -p 3030",
@@ -31,6 +27,7 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"tsup": "^7.1.0",
+		"tsx": "^3.12.7",
 		"webpack": "^5.88.1"
 	}
 }
