@@ -32,7 +32,7 @@ const Devtool = () => {
 		<>
 			{showFrame && (
 				<div className="relative w-[600px] h-[250px]">
-					<iframe className="w-full h-full" title="devtool" src="http://localhost:3030" />
+					<iframe className="w-full h-full" title="devtool" src="http://localhost:3030/index.html" />
 				</div>
 			)}
 			<div className="absolute bottom-6 left-1/2 -translate-x-1/2">
